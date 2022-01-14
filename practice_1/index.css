@@ -1,0 +1,31 @@
+body{
+    
+    background-color:rgba(164, 175, 121, 0.63);
+}
+
+.container{
+    padding: 20px;
+    margin: 3px;
+}
+ol{
+    list-style-position: inside;
+    list-style-type: square;
+    
+}
+
+
+
+.form{
+    align-content: center;
+    margin-block-start: unset;
+}
+.navbar{
+    background-color: rgb(131, 125, 125);
+    margin: 3px,3px;
+    border: 3px solid rgb(117, 143, 125);
+}
+.a {
+    text-decoration: none;
+    font-size: 24px;
+    
+}
