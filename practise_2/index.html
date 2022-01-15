@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> my hotel</title>
+    <script type=(text/javascript) src="first.JS"></script>
+</head>
+<style>
+    #main {
+        position: absolute;
+        top: 0%;
+        left: 35%;
+    }
+    
+    #secn {
+        font: medium;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+    
+    body {
+        background-image: url(2.webp);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    h1 {
+        font-size: 30px;
+        font-style: inherit;
+        color: khaki;
+    }
+    
+    .fdiv {
+        font-size: 18px;
+        color: chartreuse;
+    }
+    
+    .sdiv {
+        font-size: 18px;
+        color: chartreuse;
+    }
+    
+    .tdiv {
+        font-size: 18px;
+        color: chartreuse;
+    }
+    
+    #r {
+        font-size: 20px;
+        color: white;
+        background-color: plum;
+    }
+    
+    #re {
+        background-color: red;
+        color: white;
+    }
+    
+    #su {
+        background-color: green;
+        color: white;
+    }
+    
+    #reg {
+        font-size: 22px;
+        color: khaki;
+    }
+</style>
+
+<body>
+    <div id="main">
+        <form action="home.html">
+
+            <h1><b>VisitNepal2020. 
+                <br>Login</b></h1>
+            <br>
+            <div class="fdiv">
+                <input id="n" type="text" placeholder="Name" required>
+                <br>
+            </div>
+            <br>
+
+            <div class="sdiv">
+                <input id="e" type="email" placeholder="Email" required>
+            </div>
+            <br>
+            <div class="tdiv">
+                <br>
+                <input id="p" type="password" placeholder="Password">
+                <br>
+            </div>
+            <div class="sr">
+                <br>
+                <input type="reset" value="reset" id="re"> &nbsp;<input type="submit" value="submit" id="su"></input>
+                <br>
+            </div>
+
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div id="secn">
+        <form action="register.html">
+            <p id="reg"><i><u>If you are the new user please register first and then enjoy our service</u></i></p>
+            <div>
+                <input type="submit" value="register" id="r">
+            </div>
+        </form>
+        <br>
+
+    </div>
+
+</body>
+
+</html>

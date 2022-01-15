@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>My Website</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<style>
+    body {
+        background-image: url(100.gif);
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-style: inherit;
+        color: rgb(175, 166, 41);
+    }
+
+    li {
+        list-style: none;
+        
+    }
+
+    form {
+        background-color: rgba(99, 92, 92, 0.5);
+        border: 2px solid black;
+
+    }
+
+    ul {
+        font-size: 23px;
+    }
+
+
+
+    .link {
+        display: inline-flexbox;
+        width: 50%;
+        float: left;
+        height: 100px;
+        text-align: left;
+        
+    }
+    .link1 {
+        display: inline-flexbox;
+        width: 50%;
+        float: right;
+        height: 100px;
+        text-align: right;   
+    }
+    a{
+        padding-right: 20px;
+        color: white;
+    }
+    .logo{
+        padding: 20px;
+    }
+
+    .content {
+        display: inline-block;
+        width: 100%;
+    }
+</style>
+
+<body>
+
+    <div class="link">
+        <img src="logo.png" class="logo" width="20%">
+    </div>
+    <div class="link1">
+        
+
+
+        <ul>
+            <b>
+
+                <li><a href="home.html" title="">HOME </a></li>
+
+                <li><a href="rooms.html" title="">ROOMS</a></li>
+
+            </b>
+        </ul>
+    </div>
+
+    <form action="home.html">
+        <div class="content">
+            <h1>A BEST PLACE TO SPEND HOLIDAYS.</h1> <br><br><br>
+            <div class="">
+                check in: <input type="date" required> <br><br><br>
+                check out: <input type="date" required>
+                <br><br>
+                <label for="Adult">Adults</label>
+                <select id="adult" name="" required>
+                    <option value="">0</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select> <br><br><br>
+
+                <label for="children">Children</label>
+                <select id="children" name="">
+                    <option value="">0</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
+                <br> <br><br>
+                <input type="submit" value="Book Now" class="bttn">
+            </div>
+        </div>
+
+        <br><br>
+
+
+        <ul>
+            <li>Address: <span>Nagarkot, Kathmandu</span></li>
+            <li>Phone: <span>+53 345 753</span></li>
+            <li>Email: <span>hotelde'top@gmail.com</span></li>
+        </ul>
+
+    </form>
+</body>
+
+</html>
